@@ -1,0 +1,12 @@
+<script src="javascripts/angularApp.js"></script>
+
+
+<div ng-app="demoapp" ng-controller="DemoController">
+    <openlayers ol-center="caen"  height="400px"></openlayers>
+    <h1>Center Map</h1>
+    <form>
+        Latitude: <input type="number" step="any" ng-model="caen.lat"/>
+        Longitude : <input type="number" step="any" ng-model="caen.lon" />
+        Zoom : <input type="number" step="any" ng-model="caen.zoom" />
+    </form>
+</div>
